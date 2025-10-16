@@ -17,13 +17,7 @@ const TeamSection = () => {
       bio: 'Specializes in backend development and blockchain technology. Expert in building scalable smart contract systems.',
       avatar: 'JB',
     },
-    {
-      name: 'Kasser-Tee Athanasius Yinntenann',
-      role: 'Smart Contract & Web Developer',
-      location: 'Ghana',
-      bio: 'Full-stack developer with extensive smart contract expertise. Focused on creating seamless user experiences.',
-      avatar: 'KY',
-    },
+    // Kasser-Tee removed from team
     {
       name: 'Paul Botchwey',
       role: 'Mobile Application Developer',
@@ -50,7 +44,7 @@ const TeamSection = () => {
           </div>
 
           {/* Team Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {team.map((member, index) => (
               <div
                 key={index}
@@ -60,7 +54,7 @@ const TeamSection = () => {
                 {member.name === 'Elkanah Ametsitsi' ? (
                   <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
                     <img 
-                      src="/lovable-uploads/98cc1389-3007-4ee3-ab53-6b3efe90028e.png"
+                      src="/images/98cc1389-3007-4ee3-ab53-6b3efe90028e.png"
                       alt={`${member.name} profile`}
                       className="w-full h-full object-cover"
                     />
@@ -68,15 +62,7 @@ const TeamSection = () => {
                 ) : member.name === 'Jeremiah Boateng' ? (
                   <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
                     <img 
-                      src="/lovable-uploads/31ea6491-23f9-43ca-afe6-5ba4c6feb4fb.png"
-                      alt={`${member.name} profile`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ) : member.name === 'Kasser-Tee Athanasius Yinntenann' ? (
-                  <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
-                    <img 
-                      src="/lovable-uploads/1b961031-c0f8-42f2-8e52-504c19d300a2.png"
+                      src="/images/31ea6491-23f9-43ca-afe6-5ba4c6feb4fb.png"
                       alt={`${member.name} profile`}
                       className="w-full h-full object-cover"
                     />
@@ -84,7 +70,7 @@ const TeamSection = () => {
                 ) : member.name === 'Paul Botchwey' ? (
                   <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4">
                     <img 
-                      src="/lovable-uploads/69981f9a-bd5b-4c1f-aa7e-fc901d0314b9.png"
+                      src="/images/69981f9a-bd5b-4c1f-aa7e-fc901d0314b9.png"
                       alt={`${member.name} profile`}
                       className="w-full h-full object-cover"
                     />
