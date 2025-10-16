@@ -25,9 +25,11 @@ const InteractiveElements = () => {
                   Live Noise Map
                 </h3>
                 <div className="bg-muted/20 rounded-xl p-6 mb-4">
-                  <div className="text-muted-foreground font-medium">
-                    [Live Noise Map Placeholder]
-                  </div>
+                  <img
+                    src="/images/live-noise.jpg"
+                    alt="Live Noise Map demo"
+                    className="w-full h-40 object-cover rounded-md mb-3"
+                  />
                   <p className="text-sm text-muted-foreground mt-2">
                     Real-time visualization of noise levels in your area
                   </p>
@@ -45,9 +47,11 @@ const InteractiveElements = () => {
                   Noise Level Checker
                 </h3>
                 <div className="bg-muted/20 rounded-xl p-6 mb-4">
-                  <div className="text-muted-foreground font-medium">
-                    [Noise Level Checker Placeholder]
-                  </div>
+                  <img
+                    src="/images/noise-impact.jpg"
+                    alt="Noise Level Checker demo"
+                    className="w-full h-40 object-cover rounded-md mb-3"
+                  />
                   <p className="text-sm text-muted-foreground mt-2">
                     Test your device's noise measurement capabilities
                   </p>
@@ -65,9 +69,11 @@ const InteractiveElements = () => {
                   Impact Meter
                 </h3>
                 <div className="bg-muted/20 rounded-xl p-6 mb-4">
-                  <div className="text-muted-foreground font-medium">
-                    [Impact Meter Placeholder]
-                  </div>
+                  <img
+                    src="/images/impact.jpg"
+                    alt="Impact Meter demo"
+                    className="w-full h-40 object-cover rounded-md mb-3"
+                  />
                   <p className="text-sm text-muted-foreground mt-2">
                     Track your contribution to the network
                   </p>

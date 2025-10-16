@@ -9,6 +9,8 @@ const TeamSection = () => {
       location: 'Ghana',
       bio: 'Passionate about decentralized solutions for Africa and beyond. Leading the technical vision and blockchain architecture.',
       avatar: 'EA',
+  github: 'https://github.com/Elkanah-Qanx',
+  linkedin: 'https://www.linkedin.com/in/elkanah-ametsitsi/',
     },
     {
       name: 'Jeremiah Boateng',
@@ -16,6 +18,8 @@ const TeamSection = () => {
       location: 'Ghana',
       bio: 'Specializes in backend development and blockchain technology. Expert in building scalable smart contract systems.',
       avatar: 'JB',
+  github: 'https://github.com/JayeBlack',
+  linkedin: 'https://www.linkedin.com/in/jeremiah-boateng/',
     },
     // Kasser-Tee removed from team
     {
@@ -24,6 +28,8 @@ const TeamSection = () => {
       location: 'Ghana',
       bio: 'Over three years of experience in mobile app development. Leading the development of the HushSense mobile app.',
       avatar: 'PB',
+  github: 'https://github.com/Codernointed',
+  linkedin: 'https://www.linkedin.com/in/paulbotchwey/',
     },
   ];
 
@@ -102,12 +108,37 @@ const TeamSection = () => {
                 
                 {/* Social Links */}
                 <div className="flex justify-center space-x-3">
-                  <button className="p-2 rounded-lg bg-muted/20 hover:bg-muted/40 transition-smooth">
-                    <Github className="h-4 w-4 text-muted-foreground" />
-                  </button>
-                  <button className="p-2 rounded-lg bg-muted/20 hover:bg-muted/40 transition-smooth">
-                    <Linkedin className="h-4 w-4 text-muted-foreground" />
-                  </button>
+                  {member.github ? (
+                    <a
+                      href={member.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${member.name} GitHub`}
+                      className="p-2 rounded-lg bg-muted/20 hover:bg-muted/40 transition-smooth"
+                    >
+                      <Github className="h-4 w-4 text-muted-foreground" />
+                    </a>
+                  ) : (
+                    <button className="p-2 rounded-lg bg-muted/10 text-muted-foreground" disabled>
+                      <Github className="h-4 w-4" />
+                    </button>
+                  )}
+
+                  {member.linkedin ? (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${member.name} LinkedIn`}
+                      className="p-2 rounded-lg bg-muted/20 hover:bg-muted/40 transition-smooth"
+                    >
+                      <Linkedin className="h-4 w-4 text-muted-foreground" />
+                    </a>
+                  ) : (
+                    <button className="p-2 rounded-lg bg-muted/10 text-muted-foreground" disabled>
+                      <Linkedin className="h-4 w-4" />
+                    </button>
+                  )}
                 </div>
               </div>
             ))}
