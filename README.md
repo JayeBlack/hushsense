@@ -138,9 +138,6 @@ Please reach out through our contact form or join our community network.
 - Component-based architecture
 - Custom hooks for reusable logic
 
-## 📄 License
-
-This project is built with [Lovable](https://lovable.dev) - The world's first AI full-stack engineer.
 
 ## 📞 Contact
 
