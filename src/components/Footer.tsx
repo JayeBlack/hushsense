@@ -30,7 +30,7 @@ const Footer = () => {
       links: [
         { label: 'Privacy Policy', href: '#contact' },
         { label: 'Terms of Service', href: '#contact' },
-        { label: 'docs', href: '' },
+        { label: 'docs', href: 'https://proxy.gitbook.site/sites/site_B2U3H' },
       ],
     },
   ];
