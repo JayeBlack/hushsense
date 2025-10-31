@@ -94,7 +94,7 @@ const HowItWorksSection = () => {
           {/* CTA */}
           <div className="text-center">
             <Button variant="success" size="lg" asChild>
-              <a href="#download-app">Download Now</a>
+              <a href="/download/app-release.apk">Download Now</a>
             </Button>
           </div>
         </div>

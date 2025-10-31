@@ -29,7 +29,7 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button variant="hero" size="lg" asChild>
-              <a href="#download-app" className="flex items-center">
+              <a href="/download/app-release.apk" className="flex items-center">
                 Download App
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>

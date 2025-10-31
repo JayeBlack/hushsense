@@ -101,7 +101,7 @@ const CommunitySection = () => {
           {/* CTA */}
           <div className="text-center">
             <Button variant="success" size="lg" asChild>
-              <a href="#download-app">Join the Network</a>
+              <a href="/download/app-release.apk">Join the Network</a>
             </Button>
           </div>
         </div>
