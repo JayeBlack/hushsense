@@ -30,7 +30,7 @@ const Footer = () => {
       links: [
         { label: 'Privacy Policy', href: '#contact' },
         { label: 'Terms of Service', href: '#contact' },
-        { label: 'docs', href: '/doc/' },
+        { label: 'docs', href: 'https://hushsense.gitbook.io/hushsense-doc' },
       ],
     },
   ];
