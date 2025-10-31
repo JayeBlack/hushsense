@@ -52,7 +52,7 @@ const Header = () => {
               <Twitter className="h-5 w-5" />
             </a>
             <Button variant="cta" asChild>
-              <a href="public\download\app-release.apk">Download App</a>
+              <a href="/download/app-release.apk">Download App</a>
             </Button>
           </div>
 
@@ -94,7 +94,7 @@ const Header = () => {
                 </a>
               </div>
               <Button variant="cta" className="w-full" asChild>
-                <a href="#download-app">Download App</a>
+                <a href="/download/app-release.apk">Download App</a>
               </Button>
             </div>
           </div>
